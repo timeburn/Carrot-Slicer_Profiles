@@ -1,0 +1,11 @@
+{
+    "type": "process",
+    "setting_id": "GP004",
+    "name": "0.40mm Fine 1.2 nozzle @Carrot",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_process_carrot_common_1_2",
+    "bottom_shell_layers": "4",
+    "top_shell_layers": "5",
+    "layer_height": "0.40"
+}

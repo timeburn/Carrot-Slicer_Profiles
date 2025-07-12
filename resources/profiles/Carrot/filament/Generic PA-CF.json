@@ -1,0 +1,27 @@
+{
+    "type": "filament",
+    "filament_id": "GFN98",
+    "setting_id": "GFSA04",
+    "name": "Carrot Generic PA-CF",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_filament_pa",
+    "filament_type": [
+        "PA-CF"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "280"
+    ],
+    "nozzle_temperature": [
+        "280"
+    ],
+    "filament_max_volumetric_speed": [
+        "30"
+    ],
+    "compatible_printers": [
+      "Carrot 0.6 nozzle",
+      "Carrot 0.8 nozzle",
+      "Carrot 1.0 nozzle",
+      "Carrot 1.2 nozzle"
+    ]
+}

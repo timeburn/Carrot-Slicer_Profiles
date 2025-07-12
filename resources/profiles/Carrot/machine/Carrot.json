@@ -1,0 +1,12 @@
+{
+    "type": "machine_model",
+    "name": "Carrot",
+    "model_id": "MODIXBIG60MODDH",
+    "nozzle_diameter": "0.6;0.8;1.0;1.2",
+    "machine_tech": "FFF",
+    "family": "DenhacMods",
+    "bed_model": "",
+    "bed_texture": "orcaslicer_bed_texture.svg",
+    "hotend_model": "",
+    "default_materials": "Generic ABS;Generic PLA;Generic PLA-CF;Generic PETG;Generic TPU;Generic ASA;Generic PC;Generic PVA;Generic PA;Generic PA-CF"
+}
