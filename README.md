@@ -9,7 +9,7 @@ To install:
             In Finder, go to Applications, right-click on Orca Slicer, and "show contents"
  2. Restart Orcaslicer
  3. Start the Add Printer wizard by clicking the button to the right of "Printer" in Orca
- 4. Scroll down to the section labeled "Carrot"
+ 4. Scroll down to the section labeled "Denhac"
  5. Check the boxes for all the nozzle sizes you want to use
  6. Click Confirm.
 
