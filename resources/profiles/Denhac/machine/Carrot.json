@@ -4,7 +4,7 @@
     "model_id": "MODIXBIG60MODDH",
     "nozzle_diameter": "0.6;0.8;1.0;1.2",
     "machine_tech": "FFF",
-    "family": "DenhacMods",
+    "family": "Denhac",
     "bed_model": "",
     "bed_texture": "pei_sheet.png",
     "hotend_model": "",

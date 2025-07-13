@@ -1,13 +1,16 @@
 {
     "type": "filament",
-    "filament_id": "GFU99",
+    "filament_id": "GFC99",
     "setting_id": "GFSA04",
-    "name": "Carrot Generic TPU",
+    "name": "Generic PC @Carrot",
     "from": "system",
     "instantiation": "true",
-    "inherits": "fdm_filament_tpu",
+    "inherits": "fdm_filament_pc",
     "filament_max_volumetric_speed": [
-        "50"
+        "40"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
     ],
     "compatible_printers": [
       "Carrot 0.6 nozzle",
@@ -16,4 +19,3 @@
       "Carrot 1.2 nozzle"
     ]
 }
-

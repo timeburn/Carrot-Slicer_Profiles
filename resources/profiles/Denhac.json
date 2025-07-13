@@ -1,6 +1,6 @@
 {
     "name": "Denhac",
-    "version": "02.02.00.04",
+    "version": "02.02.00.05",
     "force_update": "0",
     "description": "Carrot configurations",
     "machine_model_list": [
@@ -29,6 +29,10 @@
         {
             "name": "fdm_process_carrot_common_1_0",
             "sub_path": "process/fdm_process_carrot_common_1_0.json"
+        },
+        {
+            "name": "fdm_process_carrot_common_1_2",
+            "sub_path": "process/fdm_process_carrot_common_1_2.json"
         },
         {
             "name": "0.18mm Fine 0.6 nozzle @Carrot",
@@ -141,44 +145,44 @@
             "sub_path": "filament/fdm_filament_pa.json"
         },
         {
-            "name": "Generic PLA",
-            "sub_path": "filament/Generic PLA.json"
+            "name": "Generic PLA @Carrot",
+            "sub_path": "filament/Generic PLA @Carrot.json"
         },
         {
-            "name": "Generic PLA-CF",
-            "sub_path": "filament/Generic PLA-CF.json"
+            "name": "Generic PLA-CF @Carrot",
+            "sub_path": "filament/Generic PLA-CF @Carrot.json"
         },
         {
-            "name": "Generic PETG",
-            "sub_path": "filament/Generic PETG.json"
+            "name": "Generic PETG @Carrot",
+            "sub_path": "filament/Generic PETG @Carrot.json"
         },
         {
-            "name": "Generic ABS",
-            "sub_path": "filament/Generic ABS.json"
+            "name": "Generic ABS @Carrot",
+            "sub_path": "filament/Generic ABS @Carrot.json"
         },
         {
-            "name": "Generic TPU",
-            "sub_path": "filament/Generic TPU.json"
+            "name": "Generic TPU @Carrot",
+            "sub_path": "filament/Generic TPU @Carrot.json"
         },
         {
-            "name": "Generic ASA",
-            "sub_path": "filament/Generic ASA.json"
+            "name": "Generic ASA @Carrot",
+            "sub_path": "filament/Generic ASA @Carrot.json"
         },
         {
-            "name": "Generic PC",
-            "sub_path": "filament/Generic PC.json"
+            "name": "Generic PC @Carrot",
+            "sub_path": "filament/Generic PC @Carrot.json"
         },
         {
-            "name": "Generic PVA",
-            "sub_path": "filament/Generic PVA.json"
+            "name": "Generic PVA @Carrot",
+            "sub_path": "filament/Generic PVA @Carrot.json"
         },
         {
-            "name": "Generic PA",
-            "sub_path": "filament/Generic PA.json"
+            "name": "Generic PA @Carrot",
+            "sub_path": "filament/Generic PA @Carrot.json"
         },
         {
-            "name": "Generic PA-CF",
-            "sub_path": "filament/Generic PA-CF.json"
+            "name": "Generic PA-CF @Carrot",
+            "sub_path": "filament/Generic PA-CF @Carrot.json"
         }
     ],
     "machine_list": [

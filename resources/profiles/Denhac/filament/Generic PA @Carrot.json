@@ -1,19 +1,19 @@
 {
     "type": "filament",
-    "filament_id": "GFL99",
+    "filament_id": "GFN99",
     "setting_id": "GFSA04",
-    "name": "Carrot Generic PLA",
+    "name": "Generic PA @Carrot",
     "from": "system",
     "instantiation": "true",
-    "inherits": "fdm_filament_pla",
-    "filament_flow_ratio": [
-        "0.98"
+    "inherits": "fdm_filament_pa",
+    "nozzle_temperature_initial_layer": [
+        "280"
+    ],
+    "nozzle_temperature": [
+        "280"
     ],
     "filament_max_volumetric_speed": [
-        "35"
-    ],
-    "slow_down_layer_time": [
-        "8"
+        "30"
     ],
     "compatible_printers": [
       "Carrot 0.6 nozzle",
@@ -22,4 +22,3 @@
       "Carrot 1.2 nozzle"
     ]
 }
-  
