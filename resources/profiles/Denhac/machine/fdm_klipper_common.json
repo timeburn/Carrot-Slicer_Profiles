@@ -6,8 +6,8 @@
   "inherits": "fdm_machine_common",
   "gcode_flavor": "klipper",
   "machine_max_acceleration_e": [
-    "5000",
-    "5000"
+    "10000",
+    "10000"
   ],
   "machine_max_acceleration_extruding": [
     "7500",
@@ -111,10 +111,10 @@
     "0"
   ],
   "retraction_speed": [
-    "60"
+    "100"
   ],
   "deretraction_speed": [
-    "60"
+    "100"
   ],
   "z_hop_types": "Normal Lift",
   "silent_mode": "0",
