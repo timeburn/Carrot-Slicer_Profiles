@@ -1,0 +1,19 @@
+{
+	"type": "filament",
+	"name": "Generic SBS @Carrot 1.00mm",
+	"inherits": "fdm_filament_sbs",
+	"from": "system",
+	"setting_id": "OGFSL99",
+	"instantiation": "true",
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_max_volumetric_speed": [
+		"38"
+	],
+	"compatible_printers": [
+		"Carrot 1.0 nozzle",
+"Carrot 1.2 nozzle",
+"Carrot 1.8 nozzle"
+	]
+}

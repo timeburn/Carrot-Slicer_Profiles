@@ -1,0 +1,598 @@
+{
+	"name": "Denhac",
+	"version": "02.03.02.60",
+	"force_update": "0",
+	"description": "Denhac Custom printers",
+	"machine_model_list": [
+		{
+			"name": "Carrot",
+			"sub_path": "machine/Carrot.json"
+		}
+	],
+	"process_list": [
+		{
+			"name": "fdm_process_common",
+			"sub_path": "process/fdm_process_common.json"
+		},
+		{
+			"name": "fdm_process_carrot_common",
+			"sub_path": "process/fdm_process_carrot_common.json"
+		},
+		{
+			"name": "fdm_process_carrot_common_0_6",
+			"sub_path": "process/fdm_process_carrot_common_0_6.json"
+		},
+		{
+			"name": "fdm_process_carrot_common_0_8",
+			"sub_path": "process/fdm_process_carrot_common_0_8.json"
+		},
+		{
+			"name": "fdm_process_carrot_common_1_0",
+			"sub_path": "process/fdm_process_carrot_common_1_0.json"
+		},
+		{
+			"name": "fdm_process_carrot_common_1_2",
+			"sub_path": "process/fdm_process_carrot_common_1_2.json"
+		},
+		{
+			"name": "fdm_process_carrot_common_1_8",
+			"sub_path": "process/fdm_process_carrot_common_1_8.json"
+		},
+		{
+			"name": "0.40mm Fine 1.2 nozzle @Carrot",
+			"sub_path": "process/0.40mm Fine 1.2 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.54mm Fine 1.8 nozzle @Carrot",
+			"sub_path": "process/0.54mm Fine 1.8 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.60mm Standard 1.2 nozzle @Carrot",
+			"sub_path": "process/0.60mm Standard 1.2 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.70mm Draft 1.2 nozzle @Carrot",
+			"sub_path": "process/0.70mm Draft 1.2 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.80mm Extra Draft 1.2 nozzle @Carrot",
+			"sub_path": "process/0.80mm Extra Draft 1.2 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.90mm Standard 1.8 nozzle @Carrot",
+			"sub_path": "process/0.90mm Standard 1.8 nozzle @Carrot.json"
+		},
+		{
+			"name": "1.10mm Draft 1.8 nozzle @Carrot",
+			"sub_path": "process/1.10mm Draft 1.8 nozzle @Carrot.json"
+		},
+		{
+			"name": "1.24mm Extra Draft 1.8 nozzle @Carrot",
+			"sub_path": "process/1.24mm Extra Draft 1.8 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.18mm Fine 0.6 nozzle @Carrot",
+			"sub_path": "process/0.18mm Fine 0.6 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.24mm Optimal 0.6 nozzle @Carrot",
+			"sub_path": "process/0.24mm Optimal 0.6 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.30mm Standard 0.6 nozzle @Carrot",
+			"sub_path": "process/0.30mm Standard 0.6 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.32mm Optimal 0.6 nozzle @Carrot",
+			"sub_path": "process/0.32mm Optimal 0.6 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.36mm Draft 0.6 nozzle @Carrot",
+			"sub_path": "process/0.36mm Draft 0.6 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.42mm Extra Draft 0.6 nozzle @Carrot",
+			"sub_path": "process/0.42mm Extra Draft 0.6 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.24mm Fine 0.8 nozzle @Carrot",
+			"sub_path": "process/0.24mm Fine 0.8 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.40mm Standard 0.8 nozzle @Carrot",
+			"sub_path": "process/0.40mm Standard 0.8 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.48mm Draft 0.8 nozzle @Carrot",
+			"sub_path": "process/0.48mm Draft 0.8 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.56mm Extra Draft 0.8 nozzle @Carrot",
+			"sub_path": "process/0.56mm Extra Draft 0.8 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.30mm Fine 1.0 nozzle @Carrot",
+			"sub_path": "process/0.30mm Fine 1.0 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.50mm Standard 1.0 nozzle @Carrot",
+			"sub_path": "process/0.50mm Standard 1.0 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.60mm Draft 1.0 nozzle @Carrot",
+			"sub_path": "process/0.60mm Draft 1.0 nozzle @Carrot.json"
+		},
+		{
+			"name": "0.80mm Extra Draft 1.0 nozzle @Carrot",
+			"sub_path": "process/0.80mm Extra Draft 1.0 nozzle @Carrot.json"
+		}
+	],
+	"filament_list": [
+		{
+			"name": "fdm_filament_common",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_common.json"
+		},
+		{
+			"name": "fdm_filament_pla",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_pla.json"
+		},
+		{
+			"name": "fdm_filament_abs",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_abs.json"
+		},
+		{
+			"name": "fdm_filament_asa",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_asa.json"
+		},
+		{
+			"name": "fdm_filament_bvoh",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_bvoh.json"
+		},
+		{
+			"name": "fdm_filament_cope",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_cope.json"
+		},
+		{
+			"name": "fdm_filament_eva",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_eva.json"
+		},
+		{
+			"name": "fdm_filament_hips",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_hips.json"
+		},
+		{
+			"name": "fdm_filament_pa",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_pa.json"
+		},
+		{
+			"name": "fdm_filament_paht",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_paht.json"
+		},
+		{
+			"name": "fdm_filament_pc",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_pc.json"
+		},
+		{
+			"name": "fdm_filament_pctg",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_pctg.json"
+		},
+		{
+			"name": "fdm_filament_pe",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_pe.json"
+		},
+		{
+			"name": "fdm_filament_pha",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_pha.json"
+		},
+		{
+			"name": "fdm_filament_pla_silk",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_pla_silk.json"
+		},
+		{
+			"name": "fdm_filament_pp",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_pp.json"
+		},
+		{
+			"name": "fdm_filament_ppa",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_ppa.json"
+		},
+		{
+			"name": "fdm_filament_pps",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_pps.json"
+		},
+		{
+			"name": "fdm_filament_pva",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_pva.json"
+		},
+		{
+			"name": "fdm_filament_sbs",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_sbs.json"
+		},
+		{
+			"name": "fdm_filament_tpu",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_tpu.json"
+		},
+		{
+			"name": "fdm_filament_pet",
+			"sub_path": "../OrcaFilamentLibrary/filament/base/fdm_filament_pet.json"
+		},
+		{
+			"name": "Generic ABS @Carrot",
+			"sub_path": "filament/Generic ABS @Carrot.json"
+		},
+		{
+			"name": "Generic PETG @Carrot",
+			"sub_path": "filament/Generic PETG @Carrot.json"
+		},
+		{
+			"name": "Generic PETG HF @Carrot",
+			"sub_path": "filament/Generic PETG HF @Carrot.json"
+		},
+		{
+			"name": "Generic ASA @Carrot",
+			"sub_path": "filament/Generic ASA @Carrot.json"
+		},
+		{
+			"name": "Generic BVOH @Carrot",
+			"sub_path": "filament/Generic BVOH @Carrot.json"
+		},
+		{
+			"name": "Generic CoPE @Carrot",
+			"sub_path": "filament/Generic CoPE @Carrot.json"
+		},
+		{
+			"name": "Generic EVA @Carrot",
+			"sub_path": "filament/Generic EVA @Carrot.json"
+		},
+		{
+			"name": "Generic HIPS @Carrot",
+			"sub_path": "filament/Generic HIPS @Carrot.json"
+		},
+		{
+			"name": "Generic PA @Carrot",
+			"sub_path": "filament/Generic PA @Carrot.json"
+		},
+		{
+			"name": "Generic PA-CF @Carrot",
+			"sub_path": "filament/Generic PA-CF @Carrot.json"
+		},
+		{
+			"name": "Generic PC @Carrot",
+			"sub_path": "filament/Generic PC @Carrot.json"
+		},
+		{
+			"name": "Generic PCTG @Carrot",
+			"sub_path": "filament/Generic PCTG @Carrot.json"
+		},
+		{
+			"name": "Generic PE @Carrot",
+			"sub_path": "filament/Generic PE @Carrot.json"
+		},
+		{
+			"name": "Generic PE-CF @Carrot",
+			"sub_path": "filament/Generic PE-CF @Carrot.json"
+		},
+		{
+			"name": "Generic PETG-CF @Carrot",
+			"sub_path": "filament/Generic PETG-CF @Carrot.json"
+		},
+		{
+			"name": "Generic PHA @Carrot",
+			"sub_path": "filament/Generic PHA @Carrot.json"
+		},
+		{
+			"name": "Generic PLA Silk @Carrot",
+			"sub_path": "filament/Generic PLA Silk @Carrot.json"
+		},
+		{
+			"name": "Generic PLA High Speed @Carrot",
+			"sub_path": "filament/Generic PLA High Speed @Carrot.json"
+		},
+		{
+			"name": "Generic PLA Matte @Carrot",
+			"sub_path": "filament/Generic PLA Matte @Carrot.json"
+		},
+		{
+			"name": "Generic PLA-CF @Carrot",
+			"sub_path": "filament/Generic PLA-CF @Carrot.json"
+		},
+		{
+			"name": "Generic PP @Carrot",
+			"sub_path": "filament/Generic PP @Carrot.json"
+		},
+		{
+			"name": "Generic PPA-CF @Carrot",
+			"sub_path": "filament/Generic PPA-CF @Carrot.json"
+		},
+		{
+			"name": "Generic PPA-GF @Carrot",
+			"sub_path": "filament/Generic PPA-GF @Carrot.json"
+		},
+		{
+			"name": "Generic PP-CF @Carrot",
+			"sub_path": "filament/Generic PP-CF @Carrot.json"
+		},
+		{
+			"name": "Generic PP-GF @Carrot",
+			"sub_path": "filament/Generic PP-GF @Carrot.json"
+		},
+		{
+			"name": "Generic PVA @Carrot",
+			"sub_path": "filament/Generic PVA @Carrot.json"
+		},
+		{
+			"name": "Generic SBS @Carrot",
+			"sub_path": "filament/Generic SBS @Carrot.json"
+		},
+		{
+			"name": "Generic TPU @Carrot",
+			"sub_path": "filament/Generic TPU @Carrot.json"
+		},
+		{
+			"name": "Generic PLA @Carrot",
+			"sub_path": "filament/Generic PLA @Carrot.json"
+		},
+		{
+			"name": "Generic ABS @Carrot 0.80mm",
+			"sub_path": "filament/Generic ABS @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PETG @Carrot 0.80mm",
+			"sub_path": "filament/Generic PETG @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PETG HF @Carrot 0.80mm",
+			"sub_path": "filament/Generic PETG HF @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic ASA @Carrot 0.80mm",
+			"sub_path": "filament/Generic ASA @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic BVOH @Carrot 0.80mm",
+			"sub_path": "filament/Generic BVOH @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic CoPE @Carrot 0.80mm",
+			"sub_path": "filament/Generic CoPE @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic EVA @Carrot 0.80mm",
+			"sub_path": "filament/Generic EVA @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic HIPS @Carrot 0.80mm",
+			"sub_path": "filament/Generic HIPS @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PA @Carrot 0.80mm",
+			"sub_path": "filament/Generic PA @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PA-CF @Carrot 0.80mm",
+			"sub_path": "filament/Generic PA-CF @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PC @Carrot 0.80mm",
+			"sub_path": "filament/Generic PC @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PCTG @Carrot 0.80mm",
+			"sub_path": "filament/Generic PCTG @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PE @Carrot 0.80mm",
+			"sub_path": "filament/Generic PE @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PE-CF @Carrot 0.80mm",
+			"sub_path": "filament/Generic PE-CF @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PETG-CF @Carrot 0.80mm",
+			"sub_path": "filament/Generic PETG-CF @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PHA @Carrot 0.80mm",
+			"sub_path": "filament/Generic PHA @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PLA Silk @Carrot 0.80mm",
+			"sub_path": "filament/Generic PLA Silk @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PLA High Speed @Carrot 0.80mm",
+			"sub_path": "filament/Generic PLA High Speed @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PLA Matte @Carrot 0.80mm",
+			"sub_path": "filament/Generic PLA Matte @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PLA-CF @Carrot 0.80mm",
+			"sub_path": "filament/Generic PLA-CF @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PP @Carrot 0.80mm",
+			"sub_path": "filament/Generic PP @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PPA-CF @Carrot 0.80mm",
+			"sub_path": "filament/Generic PPA-CF @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PPA-GF @Carrot 0.80mm",
+			"sub_path": "filament/Generic PPA-GF @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PP-CF @Carrot 0.80mm",
+			"sub_path": "filament/Generic PP-CF @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PP-GF @Carrot 0.80mm",
+			"sub_path": "filament/Generic PP-GF @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PVA @Carrot 0.80mm",
+			"sub_path": "filament/Generic PVA @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic SBS @Carrot 0.80mm",
+			"sub_path": "filament/Generic SBS @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic TPU @Carrot 0.80mm",
+			"sub_path": "filament/Generic TPU @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic PLA @Carrot 0.80mm",
+			"sub_path": "filament/Generic PLA @Carrot 0.80mm.json"
+		},
+		{
+			"name": "Generic ABS @Carrot 1.00mm",
+			"sub_path": "filament/Generic ABS @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PETG @Carrot 1.00mm",
+			"sub_path": "filament/Generic PETG @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PETG HF @Carrot 1.00mm",
+			"sub_path": "filament/Generic PETG HF @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic ASA @Carrot 1.00mm",
+			"sub_path": "filament/Generic ASA @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic BVOH @Carrot 1.00mm",
+			"sub_path": "filament/Generic BVOH @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic CoPE @Carrot 1.00mm",
+			"sub_path": "filament/Generic CoPE @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic EVA @Carrot 1.00mm",
+			"sub_path": "filament/Generic EVA @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic HIPS @Carrot 1.00mm",
+			"sub_path": "filament/Generic HIPS @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PA @Carrot 1.00mm",
+			"sub_path": "filament/Generic PA @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PA-CF @Carrot 1.00mm",
+			"sub_path": "filament/Generic PA-CF @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PC @Carrot 1.00mm",
+			"sub_path": "filament/Generic PC @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PCTG @Carrot 1.00mm",
+			"sub_path": "filament/Generic PCTG @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PE @Carrot 1.00mm",
+			"sub_path": "filament/Generic PE @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PE-CF @Carrot 1.00mm",
+			"sub_path": "filament/Generic PE-CF @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PETG-CF @Carrot 1.00mm",
+			"sub_path": "filament/Generic PETG-CF @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PHA @Carrot 1.00mm",
+			"sub_path": "filament/Generic PHA @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PLA Silk @Carrot 1.00mm",
+			"sub_path": "filament/Generic PLA Silk @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PLA High Speed @Carrot 1.00mm",
+			"sub_path": "filament/Generic PLA High Speed @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PLA Matte @Carrot 1.00mm",
+			"sub_path": "filament/Generic PLA Matte @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PLA-CF @Carrot 1.00mm",
+			"sub_path": "filament/Generic PLA-CF @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PP @Carrot 1.00mm",
+			"sub_path": "filament/Generic PP @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PPA-CF @Carrot 1.00mm",
+			"sub_path": "filament/Generic PPA-CF @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PPA-GF @Carrot 1.00mm",
+			"sub_path": "filament/Generic PPA-GF @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PP-CF @Carrot 1.00mm",
+			"sub_path": "filament/Generic PP-CF @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PP-GF @Carrot 1.00mm",
+			"sub_path": "filament/Generic PP-GF @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PVA @Carrot 1.00mm",
+			"sub_path": "filament/Generic PVA @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic SBS @Carrot 1.00mm",
+			"sub_path": "filament/Generic SBS @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic TPU @Carrot 1.00mm",
+			"sub_path": "filament/Generic TPU @Carrot 1.00mm.json"
+		},
+		{
+			"name": "Generic PLA @Carrot 1.00mm",
+			"sub_path": "filament/Generic PLA @Carrot 1.00mm.json"
+		}
+	],
+	"machine_list": [
+		{
+			"name": "fdm_machine_common",
+			"sub_path": "machine/fdm_machine_common.json"
+		},
+		{
+			"name": "fdm_klipper_common",
+			"sub_path": "machine/fdm_klipper_common.json"
+		},
+		{
+			"name": "Carrot 0.6 nozzle",
+			"sub_path": "machine/Carrot 0.6 nozzle.json"
+		},
+		{
+			"name": "Carrot 0.8 nozzle",
+			"sub_path": "machine/Carrot 0.8 nozzle.json"
+		},
+		{
+			"name": "Carrot 1.0 nozzle",
+			"sub_path": "machine/Carrot 1.0 nozzle.json"
+		},
+		{
+			"name": "Carrot 1.2 nozzle",
+			"sub_path": "machine/Carrot 1.2 nozzle.json"
+		},
+		{
+			"name": "Carrot 1.8 nozzle",
+			"sub_path": "machine/Carrot 1.8 nozzle.json"
+		}
+	]
+}

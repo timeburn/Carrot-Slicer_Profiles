@@ -1,0 +1,18 @@
+{
+	"type": "filament",
+	"name": "Generic PC @Carrot",
+	"inherits": "fdm_filament_pc",
+	"from": "system",
+	"setting_id": "OGFSA04",
+	"filament_id": "OGFC99",
+	"instantiation": "true",	
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_max_volumetric_speed": [
+		"38"
+	],
+	"compatible_printers": [
+		"Carrot 0.6 nozzle"
+	]
+}

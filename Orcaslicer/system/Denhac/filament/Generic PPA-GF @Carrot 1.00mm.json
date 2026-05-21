@@ -1,0 +1,23 @@
+{
+	"type": "filament",
+	"name": "Generic PPA-GF @Carrot 1.00mm",
+	"inherits": "fdm_filament_ppa",
+	"from": "system",
+	"setting_id": "OGFSN96_00",
+	"filament_id": "OGFN96",
+	"instantiation": "true",
+	"filament_max_volumetric_speed": [
+		"12"
+	],
+	"filament_type": [
+		"PPA-GF"
+	],	
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"compatible_printers": [
+		"Carrot 1.0 nozzle",
+"Carrot 1.2 nozzle",
+"Carrot 1.8 nozzle"
+	]
+}

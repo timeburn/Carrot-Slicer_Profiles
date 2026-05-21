@@ -1,0 +1,11 @@
+{
+	"type": "machine_model",
+	"name": "Carrot",
+	"model_id": "Carrot",
+	"nozzle_diameter": "0.6;0.8;1.0;1.2;1.8",
+	"machine_tech": "FFF",
+	"family": "Denhac",
+	"bed_texture": "carrot_pei_sheet.png",
+	"hotend_model": "",
+	"default_materials": "Generic PLA @System;Generic PETG HF @System;Generic PETG @System;Generic ABS @System"
+}

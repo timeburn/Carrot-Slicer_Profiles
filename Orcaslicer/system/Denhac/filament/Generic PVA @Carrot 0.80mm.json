@@ -1,0 +1,18 @@
+{
+	"type": "filament",
+	"name": "Generic PVA @Carrot 0.80mm",
+	"inherits": "fdm_filament_pva",
+	"from": "system",
+	"setting_id": "OGFSA04",
+	"filament_id": "OGFS99",
+	"instantiation": "true",
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_max_volumetric_speed": [
+		"38"
+	],
+	"compatible_printers": [
+		"Carrot 0.8 nozzle"
+	]
+}

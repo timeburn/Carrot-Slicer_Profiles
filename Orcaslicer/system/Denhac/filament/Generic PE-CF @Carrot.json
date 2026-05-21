@@ -1,0 +1,17 @@
+{
+	"type": "filament",
+	"name": "Generic PE-CF @Carrot",
+	"inherits": "fdm_filament_pe",
+	"from": "system",
+	"setting_id": "OGFSP98_00",
+	"instantiation": "true",	
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_max_volumetric_speed": [
+		"38"
+	],
+	"compatible_printers": [
+		"Carrot 0.6 nozzle"
+	]
+}

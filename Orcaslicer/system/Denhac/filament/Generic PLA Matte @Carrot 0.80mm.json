@@ -1,0 +1,20 @@
+{
+	"type": "filament",
+	"name": "Generic PLA Matte @Carrot 0.80mm",
+	"inherits": "fdm_filament_pla",
+	"from": "system",
+	"setting_id": "OGFSL99_02",
+	"instantiation": "true",
+	"filament_retraction_length": [
+		"0.8"
+	],	
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_max_volumetric_speed": [
+		"35"
+	],
+	"compatible_printers": [
+		"Carrot 0.8 nozzle"
+	]
+}

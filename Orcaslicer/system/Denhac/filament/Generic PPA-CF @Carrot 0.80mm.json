@@ -1,0 +1,26 @@
+{
+	"type": "filament",
+	"name": "Generic PPA-CF @Carrot 0.80mm",
+	"inherits": "fdm_filament_ppa",
+	"from": "system",
+	"setting_id": "OGFSN97_00",
+	"instantiation": "true",
+	"fan_max_speed": [
+		"35"
+	],
+	"filament_max_volumetric_speed": [
+		"13"
+	],
+	"overhang_fan_threshold": [
+		"25%"
+	],
+	"filament_type": [
+		"PPA-CF"
+	],	
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"compatible_printers": [
+		"Carrot 0.8 nozzle"
+	]
+}

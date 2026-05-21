@@ -1,0 +1,26 @@
+{
+	"type": "filament",
+	"name": "Generic PLA High Speed @Carrot 1.00mm",
+	"inherits": "fdm_filament_pla",
+	"from": "system",
+	"setting_id": "OGFSL95_00",
+	"filament_id": "OGFL95",
+	"instantiation": "true",	
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.98"
+	],
+	"filament_max_volumetric_speed": [
+		"50"
+	],
+	"slow_down_layer_time": [
+		"4"
+	],
+	"compatible_printers": [
+		"Carrot 1.0 nozzle",
+"Carrot 1.2 nozzle",
+"Carrot 1.8 nozzle"
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"type": "machine",
+	"name": "Carrot 1.2 nozzle",
+	"inherits": "fdm_klipper_common",
+	"from": "system",
+	"setting_id": "GM004",
+	"instantiation": "true",
+	"printer_model": "Carrot",
+	"cooling_tube_length": "0",
+	"cooling_tube_retraction": "0",
+	"deretraction_speed": [
+		"100"
+	],
+	"enable_filament_ramming": "0",
+	"extra_loading_move": "0",
+	"default_print_profile": "0.60mm Standard 1.2 nozzle @Carrot",
+	"max_layer_height": [
+		"1.00"
+	],
+	"min_layer_height": [
+		"0.2"
+	],
+	"layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n_LAYERCHECK LAYER={layer_num}",
+	
+	"nozzle_diameter": [
+		"1.2"
+	],
+	"machine_max_speed_x": [
+		"1000",
+		"200"
+	],
+	"machine_max_speed_y": [
+		"1000",
+		"200"
+	],
+	"machine_start_gcode": "MMU_START_SETUP INITIAL_TOOL={initial_tool} TOTAL_TOOLCHANGES=!total_toolchanges! REFERENCED_TOOLS=!referenced_tools! TOOL_COLORS=!colors! TOOL_TEMPS=!temperatures! TOOL_MATERIALS=!materials! FILAMENT_NAMES=!filament_names! PURGE_VOLUMES=!purge_volumes!\nPRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] Chamber=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]} LAYERS=[total_layer_count] TOOL=[initial_tool] ",
+
+	"nozzle_type": [
+		"hardened_steel"
+	],
+	"parking_pos_retraction": "0",
+	"printable_area": [
+		"0x0",
+		"600x0",
+		"600x650",
+		"0x650"
+	],
+	"printable_height": "700",
+	"printer_extruder_id": [
+		"1"
+	],
+	"printer_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"printer_settings_id": "Carrot 0.8",
+	"purge_in_prime_tower": "0",
+	"retraction_speed": [
+		"100"
+	],
+	"time_lapse_gcode": "TIMELAPSE_TAKE_FRAME",
+	"printer_variant": "1.2"
+}

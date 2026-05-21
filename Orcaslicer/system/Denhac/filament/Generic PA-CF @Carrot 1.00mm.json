@@ -1,0 +1,23 @@
+{
+	"type": "filament",
+	"name": "Generic PA-CF @Carrot 1.00mm",
+	"inherits": "fdm_filament_pa",
+	"from": "system",
+	"setting_id": "OGFSA04",
+	"filament_id": "OGFN98",
+	"instantiation": "true",
+	"filament_type": [
+		"PA-CF"
+	],	
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_max_volumetric_speed": [
+		"38"
+	],
+	"compatible_printers": [
+		"Carrot 1.0 nozzle",
+"Carrot 1.2 nozzle",
+"Carrot 1.8 nozzle"
+	]
+}

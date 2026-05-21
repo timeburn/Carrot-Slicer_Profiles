@@ -1,0 +1,17 @@
+{
+	"type": "filament",
+	"name": "Generic PETG HF @Carrot",
+	"inherits": "fdm_filament_pet",
+	"from": "system",
+	"setting_id": "OGFSG96_00",
+	"instantiation": "true",
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_max_volumetric_speed": [
+		"35"
+	],
+	"compatible_printers": [
+		"Carrot 0.6 nozzle"
+	]
+}
